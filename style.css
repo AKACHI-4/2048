@@ -1,0 +1,165 @@
+*, 
+::before, 
+::after{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}   
+
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: hsl(210, 2%, 19%);
+}
+
+main{ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    padding: 0 2rem;
+    height: 75px;
+    width: 100vw;  
+    background-color: #4e6edd;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainTxt{ 
+    font-size: 50px;
+    color: rgb(13, 25, 61);
+}
+
+.container{ 
+    min-height: 90vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playspace{ 
+    height: 540px;
+    width: 480px;
+
+    border-radius: 5px;
+}
+
+.space-header{ 
+    height: 60px; 
+    width: auto;
+
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    background-color: #4e6edd; 
+}
+
+.outerBoard{ 
+    background-color: #2c2c2c;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#board{ 
+    border: 1px solid white; 
+    border-radius: 10px;
+    margin: 64px;
+    padding: 3px;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.tile{ 
+    margin: 3px; 
+
+    width: 80px; 
+    height: 80px;
+
+    border-radius: 10px;
+
+    font-size: 40px; 
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* Colored Tiles */
+
+.x2{
+    background-color: #eee4da;
+    color: #727371; 
+}
+
+.x4{
+    background-color: #ece0ca;
+    color: #727371; 
+}
+
+.x8{
+    background-color: #f4b17a;
+    color: white; 
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color: #edce71;
+    color: white;
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
